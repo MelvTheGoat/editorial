@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom styles for the editorial workspace */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Issue highlight colors */
+.highlight-long_sentence { background-color: #fef3c7; }
+.highlight-passive_voice { background-color: #dbeafe; }
+.highlight-filler_phrase { background-color: #fce7f3; }
+.highlight-jargon { background-color: #d1fae5; }
+.highlight-complex_paragraph { background-color: #ede9fe; }
+.highlight-repetitive_phrasing { background-color: #fed7aa; }
+
+/* Writing editor styles */
+.editor-content {
+  min-height: 300px;
+  line-height: 1.8;
+}
+
+.editor-content:focus {
+  outline: none;
+}
