@@ -49,6 +49,12 @@ New > Blueprint (uses `render.yaml`). Set `GEMINI_API_KEY` and `NODE_VERSION=20`
 - Passive-voice detection is pattern-based, so treat it as a hint.
 - The rate limit is in-memory, and nothing is saved.
 
+## Read more
+
+- [Part C: Sample editorial output](docs/PART_C_sample_editorial_output.md): my sources, first draft, the Writing Assistant's feedback, the final piece, and the before-and-after scores.
+- [Part D: Product and engineering note](docs/PART_D_product_engineering_note.md): who it's for, what I built and left out, how it handles failures, and what I'd do next.
+
+
 ## Tools used
 
 I used AI to assist me, not to do the work. The decisions, the logic and the implementation are mine. AI helped most with the user interface, and it also helped me refine my work and add points I'd missed.
