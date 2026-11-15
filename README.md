@@ -2,7 +2,7 @@
 
 A small web app for newsletter writers: research a story, then edit the draft.
 
-**Live:** `<your-render-url>`
+**Live:** `https://editorial-kbgp.onrender.com`
 
 ## What it does
 
