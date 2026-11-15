@@ -12,7 +12,7 @@
 
 **What I built first.** Link reading with a paste-text backup (links fail often), claim labels with a quote check (trust is the main problem), plain-code writing rules, and accept/dismiss with a before-and-after view so the writer stays in control.
 
-**What I left out on purpose.** Writing the draft for the user (the writer's voice is the product), accounts and saved history, publishing to a CMS, learning a newsletter's house style, and watching sources over time. None of these are needed to prove the main loop.
+**What I left out on purpose.** Writing the draft for the user (the writer's voice is the product), accounts and saved history, publishing to a CMS, learning a newsletter's house style, and watching sources over time. I also skipped the Pocket-style "push" input, where a browser extension saves articles or tweets straight into the app. Links and pasted text cover the same need for now, and an extension is a separate build that doesn't prove the main loop. Tweets work if you paste the text. None of these are needed to prove the main loop.
 
 **How I'd measure success.**
 - Corrections after publishing, per issue. This matters most. Faster work that causes more mistakes is a failure.
