@@ -55,24 +55,4 @@ New > Blueprint (uses `render.yaml`). Set `GEMINI_API_KEY` and `NODE_VERSION=20`
 - [Part D: Product and engineering note](docs/PART_D_product_engineering_note.md): who it's for, what I built and left out, how it handles failures, and what I'd do next.
 
 
-## Tools used
 
-I used AI to assist me, not to do the work. The decisions, the logic and the implementation are mine. AI helped most with the user interface, and it also helped me refine my work and add points I'd missed.
-
-**What I did myself**
-- Decided what to build and why: the split between plain code and AI, the writing rules, the quote check, and the accept/dismiss flow.
-- Built the logic: the writing checks, the text-edit and highlight handling, the link fetching and its failure handling, and the research and writing routes.
-- Wrote my sample piece and the Part C and Part D notes. AI then helped me tighten the wording.
-- Set up the GitHub repo and deployed the app on Render.
-
-**Where AI helped**
-- **The user interface.** This is where I leaned on AI the most. I told it what each page needed to do, and it helped me build the screens.
-- **Refining my work.** I used Claude (Anthropic) to review my code, catch bugs, and suggest points I hadn't thought of. I made the final call on what went in.
-- **Inside the app.** The Google Gemini API writes the research brief and finds jargon, heavy paragraphs and repeated words. The model is set with `GEMINI_MODEL`.
-
-**How I tested it**
-- Ran the app locally and tried both pages with the sample draft and links.
-- Checked the highlights, one-click fixes, dismiss button and before-and-after view.
-- Ran the 15 automated tests (`npm test`), a TypeScript check and a production build.
-- Sent real requests to each API route: no API key, bad links, private addresses, too many requests, and drafts that are too long.
-- Checked every number in the final piece against its source page.
