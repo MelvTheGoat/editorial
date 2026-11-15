@@ -70,6 +70,3 @@ I used AI to assist me, not to do the work. The decisions, the logic and the imp
 - Ran the 15 automated tests (`npm test`), a TypeScript check and a production build.
 - Sent real requests to each API route: no API key, bad links, private addresses, too many requests, and drafts that are too long.
 - Checked every number in the final piece against its source page.
-
-**What is sample content**
-In Part C, the jargon, heavy-paragraph and repeated-word feedback and the research brief are samples in the format the app uses. The scores, the rule-based findings, the merge result and the "accept all" result are live output from the code.
