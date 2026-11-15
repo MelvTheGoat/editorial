@@ -6,28 +6,28 @@
 
 ## Sources
 
-1. VentureBeat Intelligence, [VB Pulse Agentic Reliability and Evals Report](https://venturebeat.com/vb-pulse-agentic-reliability-and-evals-report) (survey of 106 people, October 2026). Main data.
-2. Carl Franzen, VentureBeat, [Enterprise AI is entering an evaluation gap](https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them) (10 July 2026). Source of the recommendations.
+1. VentureBeat Intelligence, [VB Pulse Agentic Reliability and Evals Report](https://venturebeat.com/vb-pulse-agentic-reliability-and-evals-report) (survey of 106 people, October 2026). My main data.
+2. Carl Franzen, VentureBeat, [Enterprise AI is entering an evaluation gap](https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them) (10 July 2026). Where the recommendations come from.
 3. Rabanser et al., Princeton, [Towards a Science of AI Agent Reliability](https://arxiv.org/abs/2602.16666) (preprint, February 2026). Independent evidence.
 
-Sources 1 and 2 are both VentureBeat's own work, so they don't confirm each other. Source 3 is the independent one.
+Sources 1 and 2 are both VentureBeat's own work, so I don't treat them as confirming each other. Source 3 is the only independent one, and the piece says so where it matters.
 
-## Research brief
+## My research brief
 
-**What happened.** A survey and a university study point the same way: agents pass their tests, then fail in real use. Benchmark scores rise faster than reliability.
+**What happened.** A survey and a university study point the same way: agents pass their tests, then fail in real use. Benchmark scores are rising faster than reliability.
 
 **Why it matters.** Teams treat "it passed our tests" as "safe to automate." The data says a passed test is weak proof, and many teams wouldn't notice a failure.
 
 **Who should care.** Founders and operators trying agents, engineers who own agent quality, and anyone about to remove a human approval step.
 
-**Angles**
-1. *Your AI agent passed its tests. That doesn't mean it works.* (chosen)
+**Angles I considered**
+1. *Your AI agent passed its tests. That doesn't mean it works.* (my pick, because it's the most useful to an operator)
 2. *People are the monitoring system.* Remove the humans and you remove the only alarm.
 3. *Smarter isn't steadier.* The Princeton finding.
 
-**Left out on purpose:** the "85% pilot, 5% reach production" and "88% never reach production" figures (second-hand, disagree with each other, couldn't be traced to a source), and VentureBeat's July vs September trust figures (different groups and wording, so no real trend).
+**What I left out, and why.** I dropped the "85% pilot, 5% reach production" and "88% never reach production" figures. I only found them second-hand, they disagree with each other, and I couldn't trace either to a real source. I also dropped VentureBeat's July vs September trust figures: the groups and wording were different, so putting them side by side would suggest a trend that isn't there.
 
-## First draft (379 words)
+## My first draft (379 words)
 
 ```
 Agents Are Getting Smarter, But Are They Getting More Reliable?
@@ -45,7 +45,9 @@ Researchers at Princeton came at the same problem from the other direction. Four
 At the end of the day, what this means is that teams need to treat reliability as a product requirement. Reliability should be measured, reliability should be monitored, and reliability should be tested repeatedly. Agents that are deployed without a regression suite and inline quality assertions are essentially a bet.
 ```
 
-## Feedback on the draft
+I wrote this draft quickly on purpose, with the habits I know I fall into: filler, passive voice, a very long sentence, unexplained jargon, and one word repeated.
+
+## What the Writing Assistant told me
 
 | Check | Found |
 |---|---|
@@ -56,13 +58,13 @@ At the end of the day, what this means is that teams need to treat reliability a
 | Heavy paragraph | The "Meanwhile" paragraph: four numbers and a warning in four sentences |
 | Repeated word | "reliability" appears 6 times in the last paragraph |
 
-*The jargon, heavy-paragraph and repeated-word flags are illustrative. Paste the draft into `/writing` for live results. The sentence, filler and passive-voice counts and the scores below are live output.*
+*The jargon, heavy-paragraph and repeated-word rows are sample output in the app's format, not a live run. The sentence, filler and passive-voice counts and the scores below are live.*
 
-**Overall:** The facts are strong and the draft is honest about the survey's limits. But paragraphs open with throat-clearing and the long sentences bury the number. Biggest fix: start each paragraph with its verb and its number.
+**Overall:** My facts are strong and the draft is honest about the survey's limits. But my paragraphs open with throat-clearing and the long sentences bury the number. The biggest fix: start each paragraph with its verb and its number.
 
-**One-click fixes alone aren't enough.** Accepting every safe fix took the draft from 379 to 368 words and reading ease from 38.8 to 44.0. The long sentences and passive voice stayed, because they need a rewrite, not a swap. It also changed "is **essentially** unfinished" to "is unfinished," which is a stronger claim nobody chose to make. That is why the tool leaves meaning-changing edits to the writer.
+**What I learned from "accept all."** Accepting every safe fix took the draft from 379 to 368 words and reading ease from 38.8 to 44.0. The long sentences and passive voice stayed, because they need a rewrite, not a swap. It also changed "is **essentially** unfinished" to "is unfinished," which is a stronger claim than I made. That is exactly why I built the tool to leave meaning-changing edits to the writer.
 
-## Final piece (420 words)
+## My final piece (420 words)
 
 # Your AI agent passed its tests. That doesn't mean it works.
 
@@ -90,17 +92,4 @@ If your agent's only credential is that it passed a test, you have a demo.
 **Sources**
 
 - VentureBeat Intelligence, [VB Pulse Agentic Reliability and Evals Report](https://venturebeat.com/vb-pulse-agentic-reliability-and-evals-report) (October 2026). 106 respondents, self-selected.
-- Carl Franzen, VentureBeat, [Enterprise AI is entering an evaluation gap](https://venturebeat.com/orchestration/enterprise-ai-is-entering-an-evaluation-gap-agents-are-gaining-autonomy-faster-than-companies-can-verify-them) (10 July 2026). Source of the recommendations.
-- Rabanser et al., Princeton, [Towards a Science of AI Agent Reliability](https://arxiv.org/abs/2602.16666) (preprint, February 2026).
-
-## Before and after
-
-| | Words | Avg. sentence | Reading ease | Long sentences | Passive | Filler |
-|---|---|---|---|---|---|---|
-| First draft | 379 | 25.3 | 38.8 | 3 | 12 | 11 |
-| After one-click fixes | 368 | 24.5 | 44.0 | 3 | 10 | 0 |
-| **Final piece** | 420 | **12.7** | **56.7** | **0** | **0** | **0** |
-
-The final piece is longer than the draft on purpose. The added sentences explain "evals," flag weak data, and give the reader something to do.
-
-Every number was checked against its source page. Two are hedged in the text (47% to 24%, and 76% vs 46%) because the survey itself calls them weak. The recommendations are credited to VentureBeat and not presented as proven. Nothing is quoted; all source material is reworded.
+- Carl Franzen, VentureBeat, [Enterprise AI is entering an evaluation
